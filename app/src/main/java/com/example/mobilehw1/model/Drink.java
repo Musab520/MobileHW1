@@ -37,10 +37,9 @@ public class Drink {
 
     @Override
     public String toString() {
-        return "Drink{" +
+        return
                 "Category='" + Category + "\n" +
                 ", name='" + name + ""+
-                ", unitPrice=" + unitPrice +
-                '}';
+                ", unitPrice=" + unitPrice;
     }
 }

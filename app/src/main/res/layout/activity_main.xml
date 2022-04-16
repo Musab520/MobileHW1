@@ -22,11 +22,9 @@
         style="@style/searchStyle"
         android:onClick="btnSubmit_OnClick"
         ></Button>
-
-<EditText
-    android:layout_width="match_parent"
-    android:layout_height="200dp"
-    android:layout_marginTop="100dp"
-    android:id="@+id/edtDrinks"
-    ></EditText>
+<ListView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/list"
+  ></ListView>
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -30,7 +30,7 @@ public class DrinkMockup {
         return result;
     }
     public String[] getCategories(){
-        String [] cats={"Cold Drinks","Hot Drinks","Cookies","Fresh Juice"};
+        String [] cats={"Cold Drinks","Hot Drinks","Cookies","Juice Fresh"};
         return cats;
     }
 }
